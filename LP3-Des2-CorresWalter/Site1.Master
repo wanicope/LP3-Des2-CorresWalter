@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LP3___Desempeno_2___CorresWalter.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <div id="navbar">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Registro.aspx">Registro</asp:HyperLink>
+                <br>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/GestionArchivos.aspx">GestionArchivos</asp:HyperLink>
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+            </asp:ContentPlaceHolder>
+
+            <div id="footer">
+                <p>By Corres Walter...</p>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
